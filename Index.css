@@ -113,7 +113,7 @@ body {
 
 .part2{
     border-top: 8px solid #222;
-    height: 70vh;
+    height: 75vh;
     display:flex ;
     /* flex-wrap: wrap; */
     color: white;
@@ -187,6 +187,9 @@ body {
     padding-left: 10%;
 }
 
+
+
+
 .part4{
     border-top: 8px solid #222;
     height: 70vh;
@@ -232,7 +235,7 @@ body {
 }
 .lists{
     padding-top: 10px;
-    width: 800px;
+    padding-left: 285px;
     margin: 50px auto 0px auto;
    
 }
@@ -371,13 +374,13 @@ li{
 .footer{
     border-top: 8px solid #222;
    display: flex;
-   padding-left: 10%;
+   padding-left: 200px;
    padding-top: 3rem;
    color: gray;
    background-color:black;
    font-size: small;
    font-weight: 100;
-   height: 54vh;
+   height: 37vh;
    width: 100%;
 
 }
@@ -412,9 +415,8 @@ ul li{
     background-color:gray;
 }
 .barsec{
-    padding-left: 35%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 22%;
+    padding-top: 2rem;
 }
 .icon2{
     font-size: larger;
@@ -423,6 +425,13 @@ ul li{
 .options2 option{
     background-color:gray;
 }
+.footer1{
+    height: 55vh;
+}
+.footer1 .barsec{
+    padding-left: 23%;
+}
+
 
 
 /* _______________________________________________________ */
@@ -507,12 +516,20 @@ ul li{
 @media (max-width:800px){
     .part2{
         width:auto;
+        height: 80vh;
+        padding-top: 2rem;
     }
     .part2{
         flex-direction: column;
         padding-top: 30pxauto
 }
 }
+@media (max-width:750px){
+    .part2{
+        width: auto;
+        height: 85vh;
+} 
+}
 @media (max-width:700px){
     .part2{
         width: auto;
@@ -564,20 +581,29 @@ ul li{
         width: auto;
     }
 }
+
 @media (max-width:800px){
     .part3{
         width:auto;
+        
     }
     .part3{
-        flex-direction:column-reverse;
+        flex-direction:column;
         padding-top: 30px;
-        height: 100vh;
+        height: 106vh;
+    
+    }
+}
+@media (max-width:750px){
+    .part3{
+        width: auto;
+        height: 110vh;
     }
 }
 @media (max-width:700px){
     .part3{
         width: auto;
-        height: 95vh;
+        height: 117vh;
     }
 }
 @media (max-width:650px){
@@ -599,6 +625,18 @@ ul li{
     .part3{
         width: auto;
     }
+    .part3 .img2{
+        padding-left:0px;
+     }
+  
+
+}
+@media (max-width:550px){
+    .part3{
+        width: auto;
+        height: 120vh;
+    }
+
 }
 @media (max-width:450px){
     .part3{
@@ -684,4 +722,447 @@ ul li{
         width: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1250px){
+    .lists{
+        padding-left: 228px;
+    }
+    .lists{
+        padding-left: 228px;
+    }
+    .lists{
+        padding-left: 228px;
+    }
+    .lists{
+        padding-left: 228px;
+    }
+    .lists{
+        padding-left: 228px;
+    }
+    .lists{
+        padding-left: 228px;
+    }
+}
+@media (max-width:1200px){
+    .lists{
+        padding-left: 191px;
+    }
+    .lists{
+        padding-left: 191px;
+    }
+    .lists{
+        padding-left: 191px;
+    }
+    .lists{
+        padding-left: 191px;
+    }
+    .lists{
+        padding-left: 191px;
+    }
+    .lists{
+        padding-left: 191px;
+    }
+}
+@media (max-width:1150px){
+    .lists{
+        padding-left: 162px;
+    }
+    .lists{
+        padding-left: 162px;
+    }
+    .lists{
+        padding-left: 162px;
+    }
+    .lists{
+        padding-left: 162px;
+    }
+    .lists{
+        padding-left: 162px;
+    }
+    .lists{
+        padding-left: 162px;
+    }
+}
+@media (max-width:1100px){
+    .lists{
+        padding-left: 138px;
+    }
+    .lists{
+        padding-left: 138px;
+    }
+    .lists{
+        padding-left: 138px;
+    }
+    .lists{
+        padding-left: 138px;
+    }
+    .lists{
+        padding-left: 138px;
+    }
+    .lists{
+        padding-left: 138px;
+    }
+}
+@media (max-width:1050px){
+    .lists{
+        padding-left: 126px;
+    }
+    .lists{
+        padding-left: 126px;
+    }
+    .lists{
+        padding-left: 126px;
+    }
+    .lists{
+        padding-left: 126px;
+    }
+    .lists{
+        padding-left: 126px;
+    }
+    .lists{
+        padding-left: 126px;
+    }
+}
+@media (max-width:1000px){
+    .lists{
+        padding-left: 115px;
+    }
+}
+
+@media (max-width:950px){
+    .lists{
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:900px){
+    .lists{
+        padding-left: 35px;
+    }
+}
+
+@media (max-width:850px){
+    .lists{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .ul1{
+        width: 684px;
+    }
+    .ul2{
+        width: 684px;
+    }
+    .ul3{
+        width: 684px;
+    }
+    .ul4{
+        width: 684px;
+    }
+    .ul5{
+        width: 684px;
+    }
+    .ul6{
+        width: 684px;
+    }
+}
+@media (max-width:700px){
+    .ul1{
+        width: 615px;
+    }
+    .ul2{
+        width: 615px;
+    }
+    .ul3{
+        width: 615px;
+    }
+    .ul4{
+        width: 615px;
+    }
+    .ul5{
+        width: 615px;
+    }
+    .ul6{
+        width: 615px;
+    }
+}
+@media (max-width:650px){
+    .ul1{
+        width: 568px;
+    }
+    .ul2{
+        width: 568px;
+    }
+    .ul3{
+        width: 568px;
+    }
+    .ul4{
+        width: 568px;
+    }
+    .ul5{
+        width: 568px;
+    }
+    .ul6{
+        width: 568px;
+    }
+}
+@media (max-width:600px){
+    .ul1{
+        width: 515px;
+    }
+    .ul2{
+        width: 515px;
+    }
+    .ul3{
+        width: 515px;
+    }
+    .ul4{
+        width: 515px;
+    }
+    .ul5{
+        width: 515px;
+    }
+    .ul6{
+        width: 515px;
+    }
+}
+@media (max-width:550px){
+    .ul1{
+        width: 485px;
+    }
+    .ul2{
+        width: 485px;
+    }
+    .ul3{
+        width: 485px;
+    }
+    .ul4{
+        width: 485px;
+    }
+    .ul5{
+        width: 485px;
+    }
+    .ul6{
+        width: 485px;
+    }
+}
+@media (max-width:500px){
+    .ul1{
+        width: 420px;
+    }
+    .ul2{
+        width: 420px;
+    }
+    .ul3{
+        width: 420px;
+    }
+    .ul4{
+        width: 420px;
+    }
+    .ul5{
+        width: 420px;
+    }
+    .ul6{
+        width: 420px;
+    }
+}
+@media (max-width:450px){
+    .ul1{
+        width: 388px;
+    }
+    .ul2{
+        width: 388px;
+    }
+    .ul3{
+        width: 388px;
+    }
+    .ul4{
+        width: 388px;
+    }
+    .ul5{
+        width: 388px;
+    }
+    .ul6{
+        width: 388px;
+    }
+}
+@media (max-width:400px){
+    .ul1{
+        width: 317px;
+    }
+    .ul2{
+        width: 317px;
+    }
+    .ul3{
+        width: 317px;
+    }
+    .ul4{
+        width: 317px;
+    }
+    .ul5{
+        width: 317px;
+    }
+    .ul6{
+        width: 317px;
+    }
+}
+@media (max-width:350px){
+    .ul1{
+        width: 275px;
+    }
+    .ul2{
+        width: 275px;
+    }
+    .ul3{
+        width: 275px;
+    }
+    .ul4{
+        width: 275px;
+    }
+    .ul5{
+        width: 275px;
+    }
+    .ul6{
+        width: 275px;
+    }
+}
+@media (max-width:300px){
+    .ul1{
+        width: 225px;
+    }
+    .ul2{
+        width: 225px;
+    }
+    .ul3{
+        width: 225px;
+    }
+    .ul4{
+        width: 225px;
+    }
+    .ul5{
+        width: 225px;
+    }
+    .ul6{
+        width: 225px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    footer .barsec{
+        padding-left: 26;
+    }
+}
+
+
+
+@media (max-width:1150px){
+    .footer{
+        padding-left: 95px;
+    }
+    footer .barsec{
+        margin-left: -5%;
+    }
+}
+@media (max-width:1100px){
+    .footer{
+        padding-left: 73px;
+    }
+    footer .barsec{
+        margin-left: -6%;
+    }
+}
+@media (max-width:1000px){
+    .footer{
+        padding-left: 32px;
+    }
+    footer .barsec{
+        margin-left: -9%;
+    }
+}
+@media (max-width:950px){
+    .footer{
+        padding-left: 10px;
+    }
+}  
+@media (max-width:900px){
+    .footer{
+        flex-direction: column;
+    }
+
+}
+footer{
+    height:vh;
+    background-color: black;
+
+}
+footer i{
+    color: white;
+}
+@media (max-width:900px){
+    footer .barsec{
+        padding-top: 28rem;
+        padding-left: 10%;
+        height: 82vh;
+        background-color: black;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px){
+
+}
+
+
+
+
+
+
 
